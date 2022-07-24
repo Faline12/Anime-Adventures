@@ -1,7 +1,0 @@
-while true do
-    pcall(function()
-        if game.Players.LocalPlayer.Character.Head:FindFirstChild("_overhead") then
-           workspace[game.Players.LocalPlayer.Name].Head["_overhead"]:Destroy()
-        end
-    end)
-end
