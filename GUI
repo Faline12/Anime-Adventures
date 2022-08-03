@@ -672,7 +672,7 @@ function sex()
     credits:Label("Forever4D#0001")
     credits:Label("Arpon AG#6612")
     credits:Label("Fallen2D#0001")
-    credits:Label("Lynn#0007")")
+    credits:Label("Lynn#0007")
     credits:Label("")
 
 end
