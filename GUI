@@ -409,8 +409,8 @@ function sex()
             elseif world == "Ghoul City" then
                 getgenv().leveldrop:Clear()
                 table.clear(levels)
-                getgenv().levels = {"ghoulcity_infinite","ghoulcity_level_1","ghoulcity_level_2","ghoulcity_level_3",
-                "ghoulcity_level_4","ghoulcity_level_5","ghoulcity_level_6",}
+                getgenv().levels = {"tokyoghoul_infinite","tokyoghoul_level_1","tokyoghoul_level_2","tokyoghoul_level_3",
+                "tokyoghoul_level_4","tokyoghoul_level_5","tokyoghoul_level_6",}
                 for i, v in ipairs(levels) do
                     getgenv().leveldrop:Add(v)
                 end
